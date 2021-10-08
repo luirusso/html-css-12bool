@@ -1,0 +1,16 @@
+.container {
+    max-width: 719px;
+    margin: 0 auto;
+}
+
+.box {
+    height: 50px;
+}
+
+.blue {
+    background-color: skyblue;
+}
+
+.black {
+    background-color: black;
+}
