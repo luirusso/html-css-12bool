@@ -64,7 +64,7 @@ span {
 
 .ball {
     width: 18%;
-    animation: spin 2.5s infinite ease-in-out alternate-reverse;
+    animation: spin 5s infinite ease-in-out alternate-reverse;
 }
 
 @keyframes spin {
