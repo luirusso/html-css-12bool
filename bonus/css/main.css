@@ -1,14 +1,64 @@
+* {
+    font-family: 'VT323', monospace;
+}
+
+body {
+    display: flex;
+}
+
 .container {
-    max-width: 719px;
-    margin: 0 auto;
+    width: 50%;
+    max-height: 100vh;
+    /* margin: 0 auto; */
+}
+
+.container-text {
+    width: 50%;
+    height: 500px;
+    margin: 0 50px;
+    border-radius: 112px;
+}
+
+.capture {
+    padding: 10px 103px;
+}
+
+.flex {
+    display: flex;
+}
+
+.text {
+    font-size: 101px;
+    border: 20px solid black;
+    align-self: center;
+    overflow: auto;
+    align-items: end;
+}
+
+span {
+    color: #3A69AF;
+}
+
+.posrelative {
+    position: relative;
+}
+
+.posabsolute {
+    position: absolute;
+    top: -135px;
+    right: 42%;
+}
+
+.ball {
+    width: 18%;
 }
 
 .box {
-    height: 50px;
+    height: 48px;
 }
 
 .blue {
-    background-color: skyblue;
+    background-color: #3A69AF;
 }
 
 .black {
