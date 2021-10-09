@@ -12,6 +12,19 @@ body {
     /* margin: 0 auto; */
 }
 
+.dratini {
+    animation: updown 1s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY();
+    }
+}
+
 .container-text {
     width: 50%;
     height: 500px;
@@ -51,6 +64,16 @@ span {
 
 .ball {
     width: 18%;
+    animation: spin 2.5s infinite ease-in-out alternate-reverse;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);  
+    }
 }
 
 .box {
