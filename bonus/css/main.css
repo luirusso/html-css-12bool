@@ -45,7 +45,7 @@ body {
     font-size: 101px;
     border: 20px solid black;
     align-self: center;
-    overflow: auto;
+    overflow: hidden;
     align-items: end;
 }
 
@@ -74,6 +74,21 @@ span {
     }
     100% {
         transform: rotate(360deg);  
+    }
+}
+
+.fa-caret-down {
+    top: 218px;
+    right: 47px;
+    animation: flash 0.5s infinite linear alternate-reverse;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;    
+    }
+    100% {
+        opacity: 0;
     }
 }
 
